@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/one.js"],{
 
 /***/ "./comps/Header.js":
 /*!*************************!*\
@@ -5748,21 +5748,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Findex.js!./":
-/*!*********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fone&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Fone.js!./":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fone&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Fone.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/one", function() {
+      var page = __webpack_require__(/*! ./pages/one.js */ "./pages/one.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/one.js */ "./pages/one.js", function() {
+          if(!next.router.components["/one"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/one.js */ "./pages/one.js")
+          next.router.update("/one", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -9981,10 +9981,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/one.js":
+/*!**********************!*\
+  !*** ./pages/one.js ***!
+  \**********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9993,35 +9993,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../comps/MyLayout */ "./comps/MyLayout.js");
-var _jsxFileName = "/Users/mac/Public/null-is-all/JS/Web/hello-next/pages/index.js";
+var _jsxFileName = "/Users/mac/Public/null-is-all/JS/Web/hello-next/pages/one.js";
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+
+var Page = function Page() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 3
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, "Hello Next.js"));
-});
+  }, "This is the about Page");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"])(Page)); // ERROR IN BROWSER, EXAMPLE STRAIGHT FROM NEXT.JS DOCs
+// The default export in this page is not a React Component
 
 /***/ }),
 
-/***/ 1:
-/*!*************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Findex.js ***!
-  \*************************************************************************************************************************************************/
+/***/ 4:
+/*!**************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fone&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Fone.js ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fone&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Fone.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fone&absolutePagePath=%2FUsers%2Fmac%2FPublic%2Fnull-is-all%2FJS%2FWeb%2Fhello-next%2Fpages%2Fone.js!./");
 
 
 /***/ }),
@@ -10037,5 +10035,5 @@ module.exports = dll_2c2a52d81d538322a0ca;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=index.js.map
+},[[4,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=one.js.map

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1175,10 +1175,10 @@ module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules
 
 /***/ }),
 
-/***/ "./pages/about.js":
-/*!************************!*\
-  !*** ./pages/about.js ***!
-  \************************/
+/***/ "./pages/one.js":
+/*!**********************!*\
+  !*** ./pages/one.js ***!
+  \**********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1187,35 +1187,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../comps/MyLayout */ "./comps/MyLayout.js");
-var _jsxFileName = "/Users/mac/Public/null-is-all/JS/Web/hello-next/pages/about.js";
+var _jsxFileName = "/Users/mac/Public/null-is-all/JS/Web/hello-next/pages/one.js";
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+
+var Page = function Page() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 3
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, "This is the About page"));
-});
+  }, "This is the about Page");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(_comps_MyLayout__WEBPACK_IMPORTED_MODULE_1__["default"])(Page)); // ERROR IN BROWSER, EXAMPLE STRAIGHT FROM NEXT.JS DOCs
+// The default export in this page is not a React Component
 
 /***/ }),
 
-/***/ 4:
-/*!******************************!*\
-  !*** multi ./pages/about.js ***!
-  \******************************/
+/***/ 6:
+/*!****************************!*\
+  !*** multi ./pages/one.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/mac/Public/null-is-all/JS/Web/hello-next/pages/about.js */"./pages/about.js");
+module.exports = __webpack_require__(/*! /Users/mac/Public/null-is-all/JS/Web/hello-next/pages/one.js */"./pages/one.js");
 
 
 /***/ }),
@@ -1397,4 +1395,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=about.js.map
+//# sourceMappingURL=one.js.map
