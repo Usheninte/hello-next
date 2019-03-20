@@ -1,10 +1,7 @@
-import Header from '../components/Header'
+import Layout from '../comps/MyLayout'
 
-const About = () => (
-  <div>
-    <Header />
+export default () => (
+  <Layout>
     <p>This is the About page</p>
-  </div>
+  </Layout>
 )
-
-export default About
